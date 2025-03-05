@@ -65,7 +65,7 @@ export const Hero = () => {
                     </div>
                     <p>CO2 saved by sourcing locally, cutting transport miles, and prioritizing sustainable farming practices.</p>
                 </div>
-                <div className="flex flex-col justify-between xl:space-y-0 space-y-4 bg-white xl:w-4/12 w-full drop-shadow-my text-green2 p-4 rounded-xl xl:h-full">
+                <div className="flex flex-col justify-between xl:space-y-0 space-y-4 bg-white xl:w-4/12 w-full p-4 rounded-xl xl:h-full">
                     <div className="flex justify-between items-center">
                         <div className="text-3xl font-bold">
                             150 +
