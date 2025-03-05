@@ -35,16 +35,16 @@ export const Hero = () => {
                         <div className="relative w-full h-full">
                             <img src="/farmer.png" alt="Farmer" className="object-cover rounded-xl w-full h-full object-top" />
                             <div className="absolute bottom-2 right-2 flex space-x-2 items-center bg-[#F1F1F1] px-3 py-1 rounded-[6px]">
-                                <div className="text-base">
+                                <div className="sm:text-base text-sm">
                                     <Icon icon="lineicons:location-arrow-right" />
                                 </div>
-                                <span className="text-sm font-light">Bandung, Jawa Barat</span>
+                                <span className="sm:text-sm text-xs font-light">Bandung, Jawa Barat</span>
                             </div>
                         </div>
                         <div className="relative w-full h-full">
                             <img src="/crops.png" alt="Crops" className="object-cover rounded-xl w-full h-full" />
                             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
-                                <div className="text-4xl text-center drop-shadow-2xl text-white">
+                                <div className="sm:text-4xl text-3xl text-center drop-shadow-2xl text-white">
                                     Less Water and Pesticides
                                 </div>
                             </div>
@@ -52,10 +52,10 @@ export const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex xl:flex-row flex-col gap-4 items-center h-32 mt-4">
+            <div className="flex xl:flex-row flex-col gap-4 items-center xl:h-32 mt-4">
                 <img src="/plantation.jpg" alt="Plantation" className="object-cover xl:w-4/12 w-full h-32 rounded-xl xl:block hidden" />
-                <div className="flex flex-col justify-between xl:space-y-0 space-y-4 bg-white xl:w-4/12 w-full drop-shadow-my text-green2 p-4 rounded-xl h-full">
-                    <div className="flex justify-between">
+                <div className="flex flex-col justify-between xl:space-y-0 space-y-4 bg-white xl:w-4/12 w-full drop-shadow-my text-green2 p-4 rounded-xl xl:h-full">
+                    <div className="flex justify-between items-center">
                         <div className="text-3xl font-bold">
                             25 Tons
                         </div>
@@ -65,8 +65,8 @@ export const Hero = () => {
                     </div>
                     <p>CO2 saved by sourcing locally, cutting transport miles, and prioritizing sustainable farming practices.</p>
                 </div>
-                <div className="flex flex-col justify-between xl:space-y-0 space-y-4 bg-white xl:w-4/12 w-full drop-shadow-my text-green2 p-4 rounded-xl h-full">
-                    <div className="flex justify-between">
+                <div className="flex flex-col justify-between xl:space-y-0 space-y-4 bg-white xl:w-4/12 w-full drop-shadow-my text-green2 p-4 rounded-xl xl:h-full">
+                    <div className="flex justify-between items-center">
                         <div className="text-3xl font-bold">
                             150 +
                         </div>
