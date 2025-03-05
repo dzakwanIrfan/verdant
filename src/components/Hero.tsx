@@ -2,8 +2,8 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 
 export const Hero = () => {
     return (
-        <section className="mx-4 text-myBlack">
-            <div className="flex lg:flex-row flex-col w-full lg:h-[400px] justify-between items-start gap-4 overflow-hidden">
+        <section className="sm:mx-4 mx-2 text-myBlack">
+            <div className="flex lg:flex-row flex-col w-full lg:h-[400px] justify-between items-start sm:gap-4 gap-2 overflow-hidden">
                 <div className="flex flex-col lg:space-y-0 space-y-16 justify-between items-center text-center p-12 bg-green4 rounded-xl lg:w-1/2 w-full h-full">
                     <div className="flex flex-col space-y-4">
                         <div className="flex flex-col space-y-4 justify-center items-center">
@@ -23,7 +23,7 @@ export const Hero = () => {
                         </div>
                     </button>
                 </div>
-                <div className="flex flex-col space-y-4 justify-between items-center lg:w-1/2 w-full h-full">
+                <div className="flex flex-col sm:space-y-4 space-y-2 justify-between items-center lg:w-1/2 w-full h-full">
                     <div className="bg-[url('/liquid-cheese.png')] bg-bottom bg-cover flex flex-col space-y-8 lg:items-end items-center rounded-xl p-6 text-sm w-full">
                         <p className="text-xl font-light text-justify">Verdant brings you closer to nature’s finest—sourced straight from local farms.</p>
                         <div className="flex space-x-6 items-center">
@@ -31,7 +31,7 @@ export const Hero = () => {
                             <span>Our Product</span>
                         </div>
                     </div>
-                    <div className="flex space-x-4 items-start justify-between w-full rounded-xl overflow-hidden">
+                    <div className="flex sm:space-x-4 space-x-2 items-start justify-between w-full rounded-xl overflow-hidden">
                         <div className="relative w-full h-full">
                             <img src="/farmer.png" alt="Farmer" className="object-cover rounded-xl w-full h-full object-top" />
                             <div className="absolute bottom-2 right-2 flex space-x-2 items-center bg-[#F1F1F1] px-3 py-1 rounded-[6px]">
@@ -52,7 +52,7 @@ export const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex xl:flex-row flex-col gap-4 items-center xl:h-32 mt-4">
+            <div className="flex xl:flex-row flex-col sm:gap-4 gap-2 items-center xl:h-32 sm:mt-4 mt-2">
                 <img src="/plantation.jpg" alt="Plantation" className="object-cover xl:w-4/12 w-full h-32 rounded-xl xl:block hidden" />
                 <div className="flex flex-col justify-between xl:space-y-0 space-y-4 bg-white xl:w-4/12 w-full drop-shadow-my text-green2 p-4 rounded-xl xl:h-full">
                     <div className="flex justify-between items-center">
