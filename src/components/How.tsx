@@ -24,12 +24,12 @@ export const How = () => {
 
     ];
     return (
-        <section className="sm:mx-4 mx-2 mt-20 text-myBlack flex flex-col space-y-4 items-center justify-center">
+        <section className="sm:mx-4 mx-2 sm:mt-20 mt-16 text-myBlack flex flex-col sm:space-y-4 space-y-2 items-center justify-center">
             <div className="flex flex-col space-y-4 items-center justify-center">
                 <h1 className="sm:text-5xl text-4xl">How It Works?</h1>
                 <p>From farm to you, simplified.</p>
             </div>
-            <div className="flex lg:flex-row flex-col w-full justify-between items-start gap-4">
+            <div className="flex lg:flex-row flex-col w-full justify-between items-start sm:gap-4 gap-2">
                 {how.map((item, index) => (
                     <HowCard key={index} title={item.title} description={item.description} image={item.image} Icon={item.Icon} />
                 ))}

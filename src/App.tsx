@@ -1,3 +1,4 @@
+import { Features } from "./components/Features"
 import { Header } from "./components/Header"
 import { Hero } from "./components/Hero"
 import { How } from "./components/How"
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Hero />
       <How />
+      <Features />
     </div>
   )
 }
