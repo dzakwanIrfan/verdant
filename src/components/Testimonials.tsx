@@ -2,7 +2,7 @@ import { useState } from "react";
 import { TestimonialCard } from "./TestimonialCard";
 
 export const Testimonials = () => {
-    const [active, setActive] = useState<number | null>(0);
+    const [active, setActive] = useState<number | null>(null);
     const testimonials = [
         {
             name: "Dinny Wahyuni",
